@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 1rem 3rem;
+    background-color: #f5f5f5;
+}
+
+
+.wrapper{
+    width: 1000px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: white;
+    padding: 10px 30px;
+}
+
+.contact_details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+    padding: .5rem 5rem;
+} 
+
+.Email{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+
+.name{
+    display: flex;
+    width: rem;
+    height: 3rem;
+    justify-content: center;
+    padding: 5px 1px 0.5px ;
+}
+
+/* .Actual_Data{
+    padding: ;
+} */
+
+.Personal_Data ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding: 1rem 0;
+    list-style: none;
+    
+}
+
+.edu{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 18px;
+
+}
+
+.edu p{
+    font-size: 14px;
+}
+
+.experience h5{
+    padding: 12px 0 0;
+}
+
+.exp{
+    display: flex;
+    flex-direction: row;
+    padding: 7px 0 1px;
+    font-size: 14px;
+
+}
+
+.date{
+    margin-left: auto;
+}
+
+.experience p{
+    font-size: 14px;
+}
+
+.task li{
+    margin-left: 40px ;
+    font-size: 14px;
+    padding-bottom: 3px;
+}
+
+.wrapper_1 {
+
+    width: 1000px;
+    border: 1px solid black;
+    margin: 10px auto;
+    background-color: white;
+    padding: 50px 30px ;
+}
+
+.wrapper_1 li{
+    margin-left: 25px ;
+    font-size: 14px;
+    padding-bottom: 3px;
+}
+
+.wrapper_1 .task li{
+    margin-left: 40px ;
+    font-size: 14px;
+    padding-bottom: 3px;
+}
+
+.wrapper_1 p{
+    font-size: 14px;
+}
+
+.more_dits .Actual_Data{
+    padding: 7px 0 1px;
+}
+
+.more_dits li{
+    margin-left: 40px ;
+    font-size: 14px;
+    padding-bottom: 3px;
+    padding-top: 1px;
+}
+
+.leadership .Actual_Data{
+    padding: 7px 1px 1px ;
+}
+
+.leadership .h{
+    display: flex;
+    margin-left: 40px ;
+    padding: 5px 0 1px;
+    font-size: 14px;
+}
+
+.leadership .date{
+    margin-left: auto;
+}
+
+.ref .Actual_Data{
+    padding: 9px 1px 1.5px ;
+}
+
+.ref #lin{
+    padding: 4px 1px 1px ;
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+
